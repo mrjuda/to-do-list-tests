@@ -1,11 +1,12 @@
 // delete-task.test.js
 
-const sum = require('./delete-task.js');
+const removeBook = require('./delete-task.js');
 
-const test1 = 
+const test1 = '';
+const test2 = '';
 
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('remove item from the list', () => {
+  expect(removeBook(id, '\nshelf after: ' + shelf)).toBe(3);
 });
 
