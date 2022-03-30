@@ -1,6 +1,6 @@
 // add-task.test.js
 
-const strSize = require('./add-task.js');
+const newTask = require('./add-task.js');
 
 const test1 = '';
 const test2 = '7 chars';

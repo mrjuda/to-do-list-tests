@@ -1,19 +1,23 @@
 // add-task.js
 
-function strLength(str) {
-  return str.length;
+class Task {
+  title;
+
+  completed;
+
+  index;
 }
 
-function strSize(mockStr) {
-  const mockStrSize = strLength(mockStr);
-
-  if (mockStrSize < 1) {
-    return '<1 char';
-  } else if (mockStrSize > 10) {
-    return '>10 chars';
-  } else {
-    return mockStrSize;
-  }
+newTask = (title) => {
+  this.bookshelf = new StrShelf();
+  const task = new Task();
+  task.title = title;
+  task.completed = false;
+  this.shelf.push(task);
+  this.updateShelf();
+  this.paintToPage();
+  this.setInputFieldListeners();
+  this.setCheckboxFieldListeners();
 }
 
-module.exports = strSize;
+module.exports = newTask;
