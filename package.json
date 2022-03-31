@@ -1,5 +1,6 @@
 {
   "name": "to-do-list",
+  "main": "add-task.js",
   "version": "1.0.0",
   "description": "This is a minimalist version of a To-do List website.",
   "private": true,
