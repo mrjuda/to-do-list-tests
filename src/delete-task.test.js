@@ -21,3 +21,8 @@ test('remove 3rd task from the list', () => {
   const taskList = ['First task', 'Second task', 'Third task', 'Fourth task'];
   expect(removeBook(taskList, test3)).toBe('Third task removed');
 });
+
+test('remove 4th task from the list', () => {
+  const taskList = ['First task', 'Second task', 'Third task', 'Fourth task'];
+  expect(removeBook(taskList, test4)).toBe('Fourth task removed');
+});
